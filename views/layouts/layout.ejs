@@ -6,13 +6,16 @@
     <title>Mybrary</title>
 </head>
 <body>
-    before
-    <br />
+    <!-- header -->
+    <%- include('../partials/header.ejs') %> 
+    <!-- error messages -->
+    <%- include('../partials/errorMessage.ejs') %> 
+
     <!-- everything in this file will show 
         on every page. The body tage below
         allows the view to change -->
     <%- body %> 
-    <br />
-    after
+
+    <!-- footer -->
 </body>
 </html>
